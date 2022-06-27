@@ -27,7 +27,7 @@ section {
 }
 .home{
     position: relative;
-    background: url('images/model-3.jpg') center no-repeat;
+    background: url('images/model-3.webp') center no-repeat;
     height: 940px;
     width: 100%;
 }
@@ -57,12 +57,12 @@ section .my-row .btns .last {
 }
 .section-2 {
     position: relative;
-    background: url('images/model-y.jpg') center no-repeat;
+    background: url('images/model-y.webp') center no-repeat;
     height: 100vh;
 }
 .section-3 {
     position: relative;
-    background: url('images/model-s.jpg') center no-repeat;
+    background: url('images/model-s.webp') center no-repeat;
     height: 100vh;
 }
 .section-4 {

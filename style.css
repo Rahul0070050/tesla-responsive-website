@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;
+}
+.header-section {
+    z-index: 1;
+    width: 100vw;
+    position: fixed;
+}
+header .containar a{
+    text-decoration: underline;
+    color: black;
+}
+#navbar .navbar-brand img {
+    width: 5rem;
+}
+#navbar {
+    display: flex !important;
+    justify-content: space-around !important;
+}
+.home{
+    position: relative;
+    background: url('images/model-3.jpg') center no-repeat;
+    height: 940px;
+    width: 100%;
+}
+section .my-row {
+    height: 100%;
+    align-items: center;
+}
+section .my-row .my-col {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+section .my-row .btns a{
+    padding: 0.8rem 2rem;
+    border-radius: 15px;
+}
+section .my-row .btns .first {
+    color: white;
+    margin-right: 1rem;
+    background-color: #333333;
+}
+section .my-row .btns .last {
+    background-color: white;
+    color: black;
+}
+.section-2 {
+    position: relative;
+    background: url('images/model-y.jpg') center no-repeat;
+    height: 100vh;
+}
+.section-3 {
+    position: relative;
+    background: url('images/model-s.jpg') center no-repeat;
+    height: 100vh;
+}
+.section-4 {
+    position: relative;
+    background: url('images/model-3.jpg') center no-repeat;
+    height: 100vh;
+}
+.section-5 {
+    position: relative;
+    background: url('images/model-x.jpg') center no-repeat;
+    height: 100vh;
+}
+.section-6 {
+    position: relative;
+    background: url('images/solar-panel.jpg') center no-repeat;
+    height: 100vh;
+}
+@media only screen and (max-width: 666px) {
+    section .my-row .btns {
+        display: flex;
+        flex-direction: column;
+        padding: 0 1rem;
+    }
+    section .my-row .btns a{
+        margin-top:  2rem !important;
+        justify-content: center;
+        padding: 0.5rem 2rem;
+        font-size: small;
+    }
+    section .my-row .btns .first, section .my-row .btns .last {
+        margin: auto;
+    }
+}

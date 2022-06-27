@@ -22,6 +22,9 @@ header .containar a{
     display: flex !important;
     justify-content: space-around !important;
 }
+section {
+    overflow: hidden;
+}
 .home{
     position: relative;
     background: url('images/model-3.jpg') center no-repeat;
@@ -33,6 +36,7 @@ section .my-row {
     align-items: center;
 }
 section .my-row .my-col {
+    padding: 0;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -76,6 +80,23 @@ section .my-row .btns .last {
     background: url('images/solar-panel.jpg') center no-repeat;
     height: 100vh;
 }
+.section-6 {
+    position: relative;
+    background: url('images/solar-panel.jpg') center no-repeat;
+    height: 100vh;
+}
+.section-7 {
+    position: relative;
+    background: url('images/accessories.jpg') center no-repeat;
+    height: 100vh;
+}
+.footar {
+    display: flex;
+    justify-content: center;
+}
+.footar p {
+    padding: 1rem;
+}
 @media only screen and (max-width: 666px) {
     section .my-row .btns {
         display: flex;
@@ -90,5 +111,10 @@ section .my-row .btns .last {
     }
     section .my-row .btns .first, section .my-row .btns .last {
         margin: auto;
+    }
+    .footar{
+        display: flex;
+        flex-direction: column;
+        padding: 0.6rem 0 !important;
     }
 }

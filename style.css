@@ -67,27 +67,27 @@ section .my-row .btns .last {
 }
 .section-4 {
     position: relative;
-    background: url('images/model-3.jpg') center no-repeat;
+    background: url('images/model-3.webp') center no-repeat;
     height: 100vh;
 }
 .section-5 {
     position: relative;
-    background: url('images/model-x.jpg') center no-repeat;
+    background: url('images/model-x.webp') center no-repeat;
     height: 100vh;
 }
 .section-6 {
     position: relative;
-    background: url('images/solar-panel.jpg') center no-repeat;
+    background: url('images/solar-panel.webp') center no-repeat;
     height: 100vh;
 }
 .section-6 {
     position: relative;
-    background: url('images/solar-panel.jpg') center no-repeat;
+    background: url('images/solar-panel.webp') center no-repeat;
     height: 100vh;
 }
 .section-7 {
     position: relative;
-    background: url('images/accessories.jpg') center no-repeat;
+    background: url('images/accessories.webp') center no-repeat;
     height: 100vh;
 }
 .footar {

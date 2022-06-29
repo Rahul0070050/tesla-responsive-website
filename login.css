@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    background: url('images/model-3.webp') cover no-repeat;
+    height: 100vh;
+}
+.container .form-row {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+}

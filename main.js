@@ -4,7 +4,11 @@ function checkLogin() {
 
     if(!localStorage.getItem('tesla')) {
         console.log(window.location);
-        if(window.location.href == 'https://rahul0070050.github.io/tesla-responsive-website/') {
+        const href = window.location.href;
+        const LOCATION_1 = 'https://rahul0070050.github.io/tesla-responsive-website/'
+        const LOCATION_2 = 'https://rahul0070050.github.io/tesla-responsive-website/index'
+        const LOCATION_3 = 'https://rahul0070050.github.io/tesla-responsive-website/index.html'
+        if(href == LOCATION_1 || href == LOCATION_2 || href == LOCATION_3) {
             window.location.href = 'https://rahul0070050.github.io/tesla-responsive-website/login'
         }
     } else {

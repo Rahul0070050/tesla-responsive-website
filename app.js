@@ -11,6 +11,6 @@ btn.addEventListener("click",(e) => {
     let Spassword = email.value;
     if(Semail != '' && Spassword != '') {
         localStorage.setItem('tesla',{small: Semail,Spassword: Spassword});
-        window.location = './index.html'
+        window.location = 'https://rahul0070050.github.io/tesla-responsive-website/index.html'
     }
 })

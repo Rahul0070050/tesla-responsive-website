@@ -4,7 +4,7 @@ function checkLogin() {
 
     if(!localStorage.getItem('tesla')) {
         console.log(window.location);
-        if(window.location.href == 'https://rahul0070050.github.io/tesla-responsive-website') {
+        if(window.location.href == 'https://rahul0070050.github.io/tesla-responsive-website/') {
             window.location.href = 'https://rahul0070050.github.io/tesla-responsive-website/login'
         }
     } else {

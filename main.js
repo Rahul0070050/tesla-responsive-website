@@ -5,7 +5,7 @@ function checkLogin() {
     if(!localStorage.getItem('tesla')) {
         console.log(window.location);
         if(window.location.href == 'https://rahul0070050.github.io/tesla-responsive-website/index.html') {
-            window.location = 'https://rahul0070050.github.io/tesla-responsive-website/login.html'
+            window.location.href = 'https://rahul0070050.github.io/tesla-responsive-website/login.html'
         }
     } else {
         loginbtn.innerHTML = `<a class="nav-link" onclick="logout();">Logout</a>`
